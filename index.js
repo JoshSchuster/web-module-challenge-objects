@@ -34,7 +34,17 @@ and should return a number.
 
 For example, burger.discount("teacher") would return 13.5 and burger.discount("public") would return 16.2*/
 
+burger.discount = function(classification){
+  if(classification === "teacher" || classification === "student"){
+    return (burger.price * .75);
+  }else{
+    return (burger.price * .9);
+  }
+}
 
+console.log(burger); //test to see function added to burger
+console.log(burger.discount("teacher")); //test 13.5
+console.log(burger.discount("public")); //test 16.2
 
 ///////////////Reviews (MVP)///////////////////
 
