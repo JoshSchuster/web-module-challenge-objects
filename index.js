@@ -13,11 +13,16 @@ function createMenuItem(name, price, category){
 
 const fries = createMenuItem("Fries", 6, "Side"); //test
 console.log(fries); //test
-console.log(burger);
+console.log(burger); //test
 
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
+const blackTea = createMenuItem("Black Tea", 4, "Drinks");
+const greenTea = createMenuItem("Green Tea", 4, "Drinks");
+const oolongTea = createMenuItem("Oolong Tea", 4, "Drinks");
 
-
+console.log(blackTea); //test
+console.log(greenTea); //test
+console.log(oolongTea); //test
 
 /* Task 2: You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to your burger object that automatically calculates price given a string as a parameter. 
 
