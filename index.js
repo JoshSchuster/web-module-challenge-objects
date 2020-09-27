@@ -66,9 +66,13 @@ console.log(reviews[5].feedback);
 
 reviews.push({name:"Josh", rating: 4.2, feedback: "Pretty stellar place"});
 
-console.log(reviews); //test that my review has been added
+console.log(reviews); //test that my review was added
 
-/* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
+/* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays" */
+
+reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays";
+
+console.log(reviews); //test that Reyna's feedback was updated
 
 /*  Task 6: Write a function to return a review based on the index of the review in the array.
 
